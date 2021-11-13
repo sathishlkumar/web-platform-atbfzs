@@ -33,3 +33,6 @@
     </div>
   </body>
 </html>
+<?php
+echo "hello";
+?>
