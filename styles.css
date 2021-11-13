@@ -2,8 +2,21 @@ body {
   background: orange;
 }
 
-ul {
+ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+a[href^='mailto']::before {
+  content: '📧 ';
+}
+
+a[href^='tel']::before {
+  content: '📞 ';
 }
